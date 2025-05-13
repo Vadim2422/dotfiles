@@ -119,8 +119,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias vpn_up='sudo wg-quick up wg0'
-alias vpn_down='sudo wg-quick down wg0'
+alias vu='sudo wg-quick up wg0'
+alias vd='sudo wg-quick down wg0'
 alias raction_serv='ssh raction@31.129.57.131'
 alias omnia_serv='ssh root@5.23.54.70'
 alias cpd='pwd | tee >(tr -d "\n" | wl-copy)'
